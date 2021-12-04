@@ -1,0 +1,16 @@
+{
+  "name": "dayjs_bugs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "TZ='UTC' jest"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "luxon": "^2.1.1"
+  }
+}
