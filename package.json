@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "TZ='UTC' jest"
+    "test-isSame": "TZ='Europe/Zurich' jest -- test_isSame.test.js",
+    "test-subtract": "TZ='UTC' jest -- test_subtract.test.js"
   },
   "devDependencies": {
     "jest": "^27.4.3"
